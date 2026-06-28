@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Checkout from "./components/Checkout";
 import Menu from "./components/Menu";
 import Dummy from "./components/Dummy";
+import Item from "./components/Item";
 
 export default function App() {
   return (
@@ -28,6 +29,9 @@ export default function App() {
         <h4 className="ex-title">Exercise 4</h4>
         <div className="exercise" id="ex-4">
           {/* your code here... */}
+          <NavBar />
+          <Menu />
+          <Checkout />
         </div>
       </div>
     </div>

@@ -1,4 +1,10 @@
-import Spam from './Spam';
+import Spam from "./Spam";
 
-const Spamalot = () => {};
+const Spamalot = () => {
+  let spamAarr = [];
+  for (let i = 0; i < 500; i++) {
+    spamAarr.push(<Spam key={i} />);
+  }
+  return <>{spamAarr}</>;
+};
 export default Spamalot;

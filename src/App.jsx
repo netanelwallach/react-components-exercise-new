@@ -20,6 +20,7 @@ export default function App() {
         <h4 className="ex-title">Exercise 2</h4>
         <div className="exercise" id="ex-2">
           {/* your code here... */}
+          <Spamalot />
         </div>
       </div>
 
